@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sky{
+    width: 100%;
+    height: 20em;
+}
+.grass{
+    width: 100%;
+    height: 5em;
+    margin-top: -190px;
+}
+.houses{
+    margin-top: -300px;
+    width: 100%;
+}
+.road{
+    width: 100%;
+    height: 140px;
+    margin-top: -20px;
+}
+.road2{
+    width: 100%;
+    height: 150px;
+    margin-top: -8px;
+}
+
+.cycle1{
+    margin-top: -420px;
+    margin-bottom: 500px;
+    width: 150px;
+    animation: cycle1 3s linear forwards infinite;
+}
+@keyframes cycle1 {
+    from{
+        transform: translate(1500px);
+    }
+    to{
+        transform: translate(-100px);
+    }
+}
+
+.car1{
+    margin-top: -400px;
+    margin-bottom: 420px;
+    width: 150px;
+    animation: car1 5s linear forwards infinite;
+}
+@keyframes car1 {
+    from{
+        transform: translate(1200px);
+    }
+    to{
+        transform: translate(-280px);
+    }
+}
+
+.car2{
+    margin-top: -300px;
+    margin-bottom: 375px;
+    width: 150px;
+    animation: car2 3s linear forwards infinite;
+}
+@keyframes car2 {
+    from{
+        transform: translate(-280px);
+    }
+    to{
+        transform: translate(1200px);
+    }
+}
+
+.birds{
+    margin-top: -900px;
+    margin-bottom: 700px;
+    width: 250px;
+    animation: birds 3s linear forwards infinite;
+}
+@keyframes birds {
+    from{
+        transform: translate(1200px);
+    }
+    to{
+        transform: translate(-500px);
+    }
+}
+
+.heli{
+    margin-top: -900px;
+    margin-bottom: 650px;
+    width: 250px;
+    animation: heli 2s linear forwards infinite;
+}
+@keyframes heli {
+    from{
+        transform: translate(1200px);
+    }
+    to{
+        transform: translate(-900px);
+    }
+}
+
+.bike{
+    margin-top: -300px;
+    margin-bottom: 320px;
+    width: 130px;
+    animation: bike 1s linear forwards infinite;
+}
+@keyframes bike {
+    from{
+        transform: translate(-1000px);
+    }
+    to{
+        transform: translate(1200px);
+    }
+}
+
+.truck{
+    margin-top: -300px;
+    margin-bottom: 220px;
+    width: 200px;
+    animation: truck 3.5s linear forwards infinite
+}
+@keyframes truck {
+    from{
+        transform: translate(1200px);
+    }
+    to{
+        transform: translate(-1500px);
+    }
+}
+
+.byed{
+    margin-top: -900px;
+    margin-bottom: 750px;
+    width: 350px;
+    animation: byed 6s linear forwards infinite;
+}
+@keyframes byed {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(1200px);
+    }
+}
+
+.aud{
+    auto
+}
